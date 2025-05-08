@@ -1,0 +1,24 @@
+Notice that there are a mix of updates available for the system. Some of
+these are identified as *Security Updates* by the shield icon in the
+*Severity* field.
+
+Security updates can be applied separately from other updates.
+
+Use the *Install Security Updates* button to apply just this set of
+updates.
+
+After the security updates are applied, you are prompted to restart the
+system so that the updates take effect. We are not yet finished applying
+updates, so, for now, please *Ignore* the restart request.
+
+.Ignore Restart Request
+image::../assets/Restart-request.png[Ignore Restart Request]
+
+____
+[!NOTE] If an update to the web console is applied, you will be
+presented with the option to Reconnect. Press this button, and reenter
+the username and password. Note that you are taken back to the Software
+updates page, and administrative access is still enabled.
+____
+
+You may move on to the next step.

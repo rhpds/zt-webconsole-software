@@ -1,0 +1,9 @@
+---
+name: modules
+version: master
+
+asciidoc:
+  attributes:
+    lab_name: "Update a Red Hat Enterprise Linux host with the Web Console"
+    release-version: master
+    page-pagination: true

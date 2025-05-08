@@ -1,0 +1,24 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-login"
+      label: "Login"
+      solveButton: true
+    - name: "02-updates-menu"
+      label: "Updates Menu"
+      solveButton: true
+    - name: "03-examine"
+      label: "Examine"
+      solveButton: true
+    - name: "04-apply"
+      label: "Apply"
+      solveButton: true
+    - name: "05-more-updates"
+      label: "More Updates"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty

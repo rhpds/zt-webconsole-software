@@ -22,3 +22,5 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty
+  - name: cockpit
+    url: https://cockpit-${guid}.${domain}/

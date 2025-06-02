@@ -17,6 +17,7 @@ rhel
 [source,bash]
 ----
 redhat
+{password}
 ----
 
 image::Web-console-login.png[../assets/Web-console-login]

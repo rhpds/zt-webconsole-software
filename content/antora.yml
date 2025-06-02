@@ -7,3 +7,4 @@ asciidoc:
     lab_name: "Update a Red Hat Enterprise Linux host with the Web Console"
     release-version: master
     page-pagination: true
+    ssh_password: password

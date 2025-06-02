@@ -17,8 +17,7 @@ rhel
 .Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
-redhat
-{ssh_password}
+{bastion_ssh_password}
 ----
 
 image::Web-console-login.png[../assets/Web-console-login]

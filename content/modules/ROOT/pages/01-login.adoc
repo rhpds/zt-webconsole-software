@@ -14,7 +14,7 @@ rhel
 
 2 - Password:
 
-[source,bash]
+[source,bash,subs="+macros,+attributes"]
 ----
 redhat
 {password}

@@ -14,4 +14,4 @@ systemctl enable --now cockpit.socket
 # Create rhel user and set password
 useradd rhel
 usermod -aG wheel rhel
-echo redhat | passwd --stdin rhel
+#echo redhat | passwd --stdin rhel

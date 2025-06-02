@@ -10,7 +10,6 @@ choose to do so.
 Now your system reports that it has been updated and presents the
 options to `+Reboot system+` or `+Restart services+`.
 
-.Ignore Restart Request
-image::../assets/Restart-request.png[Ignore Restart Request]
+image::Restart-request.png[Ignore Restart Request]
 
 This lab is now complete!

@@ -3,6 +3,8 @@ administrative access.
 
 Click `+Turn on administrative access+`.
 
+image::turn-on-admin.png[]
+
 Next do the following:
 
 [arabic]

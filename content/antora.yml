@@ -7,4 +7,6 @@ asciidoc:
     lab_name: "Update a Red Hat Enterprise Linux host with the Web Console"
     release-version: master
     page-pagination: true
-    ssh_password: "{{ zero_touch_rhel_user_user_password }}"
+    ssh_password: redhat123
+
+#"{{ zero_touch_rhel_user_user_password }}"

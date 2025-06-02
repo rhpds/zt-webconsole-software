@@ -27,6 +27,6 @@ rhel
 redhat
 ----
 
-image:../assets/Web-console-login.png[../assets/Web-console-login]
+image::Web-console-login.png[../assets/Web-console-login]
 
 Once logged in, proceed to the next step.

@@ -2,14 +2,6 @@ Click on the tab titled *RHEL Web Console* at the top of your lab system
 interface. Selecting this tab will open the lab system’s Web Console in
 a new browser tab or window.
 
-____
-[!NOTE] If you have issues logging into the web console, try using a
-Private window or a different browser. Using Chrome, you may get a
-warning that the password is insecure or found in a breach. Since this
-is a temporary resource, we aren’t using a very secure password and this
-warning can be ignored.
-____
-
 Once the login page is presented, use the following credentials to log
 into the Web Console:
 

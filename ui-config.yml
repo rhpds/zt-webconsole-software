@@ -22,5 +22,5 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty
-  - name: cockpit
+  - name: "RHEL Web Console"
     url: https://cockpit-${guid}.${domain}/

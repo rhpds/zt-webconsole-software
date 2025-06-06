@@ -32,8 +32,6 @@ virtualmachines:
     memory: "2G"
     cores: 1
     image_size: "40G"
-    tags:
-      - key: "AnsibleGroup"
-        value: "bastions"
+
     networks:
       - default

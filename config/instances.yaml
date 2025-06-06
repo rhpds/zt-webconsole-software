@@ -26,16 +26,4 @@ virtualmachines:
         service: cockpit
         targetPort: 9090
         tls: true
-  - name: "rhel2"
-    image: "rhel-9.5"
-    memory: "2G"
-    cores: 1
-    image_size: "40G"
-    packages:
-      - git
-      - cockpit
-    tags:
-      - key: "AnsibleGroup"
-        value: "bastions"
-    networks:
-      - default
+        tls_termination: Edge

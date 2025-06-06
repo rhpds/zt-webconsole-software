@@ -34,6 +34,6 @@ virtualmachines:
     image_size: "40G"
     tags:
       - key: "AnsibleGroup"
-        value: "nodes"
+        value: "isolated"
     networks:
       - default

@@ -10,7 +10,7 @@ virtualmachines:
       - cockpit
     tags:
       - key: "AnsibleGroup"
-        value: "nodes"
+        value: "bastions"
     networks:
       - default
     services:

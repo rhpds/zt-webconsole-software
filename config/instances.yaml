@@ -5,7 +5,7 @@ virtualmachines:
     image_type: registry
     memory: "32G"
     cores: 1
-    image_size: "900G"
+    image_size: "200G"
     packages:
       - git
       - cockpit

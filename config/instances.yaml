@@ -16,10 +16,10 @@ virtualmachines:
     services:
       - name: cockpit
         ports:
-          - port: 9090
+          - port: 443
             protocol: TCP
-            targetPort: 9090
-            name: cockpit
+            targetPort: 443
+            name: webui
     routes:
       - name: cockpit
         host: cockpit

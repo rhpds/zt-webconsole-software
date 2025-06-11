@@ -4,8 +4,6 @@ available updates on the system.
 When you are ready, apply the available updates by clicking the *Install
 All Updates* button.
 
-image::install-all-updates.png
-
 Again you are asked to restart the system. This time, you can if you
 choose to do so.
 

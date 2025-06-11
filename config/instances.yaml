@@ -1,8 +1,7 @@
 ---
 virtualmachines:
   - name: "satellite"
-    image: "docker://quay.io/myee/rhdp:latest"
-    image_type: registry
+    image: "quay.io/myee/rhdp:latest"
     memory: "32G"
     cores: 1
     image_size: "200G"

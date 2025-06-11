@@ -5,13 +5,11 @@ Click `+Turn on administrative access+`.
 
 image::turn-on-admin.png[]
 
-Next do the following:
-
-[arabic]
-. Enter the password: *redhat*
-. Click `+Authenticate+`
-
 Navigate to the *Software Updates* application.
+
+image::Nav-Updates.png[]
 
 It may take a little while to update available package information. You
 may move on to the next step.
+
+image::checking.png[]

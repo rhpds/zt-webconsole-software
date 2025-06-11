@@ -3,6 +3,8 @@ updates available for your system.
 
 NOTE: The available updates may not match the following screenshots
 
+image::all-available-updates.png[]
+
 In addition to the software package names and versions, the update type
 is indicated in the *Severity* field. In the *Details* section, you see
 the first entry in the software’s changelog.

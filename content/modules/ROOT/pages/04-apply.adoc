@@ -7,6 +7,8 @@ Security updates can be applied separately from other updates.
 Use the *Install Security Updates* button to apply just this set of
 updates.
 
+image::security-updates.png[]
+
 After the security updates are applied, you are prompted to restart the
 system so that the updates take effect. We are not yet finished applying
 updates, so, for now, please *Ignore* the restart request.

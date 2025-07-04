@@ -7,7 +7,7 @@ systemctl restart sshd.service
 
 # Enable cockpit functionality in showroom.
 echo "[WebService]" > /etc/cockpit/cockpit.conf
-echo "Origins = https://cockpit-$(hostname -f|cut -d"-" -f2).apps.$(grep search /etc/resolv.conf| grep -o '[^ ]*$')" >> /etc/cockpit/cockpit.conf
+echo "Origins = https://cockpit-${GUID}.${DOMAIN}" >> /etc/cockpit/cockpit.conf
 echo "AllowUnencrypted = true" >> /etc/cockpit/cockpit.conf
 systemctl enable --now cockpit.socket
 

@@ -7,7 +7,7 @@ into the Web Console:
 
 1 - Username:
 
-[source,bash]
+[source,js]
 ----
 rhel
 ----

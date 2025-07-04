@@ -5,19 +5,19 @@ antora:
   modules:
     - name: "01-login"
       label: "Login"
-      solveButton: true
+      solveButton: false
     - name: "02-updates-menu"
       label: "Updates Menu"
-      solveButton: true
+      solveButton: false
     - name: "03-examine"
       label: "Examine"
-      solveButton: true
+      solveButton: false
     - name: "04-apply"
       label: "Apply"
-      solveButton: true
+      solveButton: false
     - name: "05-more-updates"
       label: "More Updates"
-      solveButton: true
+      solveButton: false
 
 tabs:
   - name: "RHEL Web Console"

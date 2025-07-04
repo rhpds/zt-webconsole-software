@@ -15,7 +15,7 @@ rhel
 2 - Password:
 
 .Command
-[source,bash,subs="+macros,+attributes",role=execute]
+[source,js,subs="+macros,+attributes",role=execute]
 ----
 {bastion_ssh_password}
 ----

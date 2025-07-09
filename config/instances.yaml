@@ -28,3 +28,9 @@ virtualmachines:
         targetPort: 9090
         tls: true
         tls_termination: Edge
+    userdata: |
+      #cloud-config
+      fqdn: rhel.lab
+      hostname: rhel
+      prefer_fqdn_over_hostname: true
+      manage_etc_hosts: true

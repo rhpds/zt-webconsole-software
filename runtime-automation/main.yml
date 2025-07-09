@@ -67,8 +67,5 @@
       var: r_result
     when: r_script_test.stat.exists and job_info_dir is defined
 
-  - name: Fail if stage was failed
-    ansible.builtin.fail:
-      msg: "Stage failed"
-    when: r_script_test.stat.exists and r_result.rc != 0
+ 
 

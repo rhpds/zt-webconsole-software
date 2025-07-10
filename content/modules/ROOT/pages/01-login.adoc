@@ -14,10 +14,9 @@ rhel
 
 2 - Password:
 
-.Command
-[source,js,subs="+macros,+attributes",role=execute]
+[source,js]
 ----
-{bastion_ssh_password}
+rhel
 ----
 
 image::Web-console-login.png[../assets/Web-console-login]

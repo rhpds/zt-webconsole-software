@@ -4,10 +4,14 @@ egress:
   - ports:
       - protocol: TCP
         port: 443
+      - portocol: TCP
+        port: 22
 ingress:
   - ports:
       - protocol: TCP
         port: 9090
+      - portocol: TCP
+        port: 22
 
 # The following lines are suggested based on Instruqt's allow_external_ingress fields:
 # rhel:

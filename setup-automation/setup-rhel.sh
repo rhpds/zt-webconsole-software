@@ -2,6 +2,10 @@
 
 # Downgrade openssh so that the lab will have something to upgrade.
 
+# Unregister and register the VM
+subscription-manager clean
+subscription-manager register --activationkey=12-5-22-instruqt --org=12451665 --force
+
 dnf downgrade openssh -y
 systemctl restart sshd.service
 

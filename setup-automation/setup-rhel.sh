@@ -3,8 +3,9 @@
 # Downgrade openssh so that the lab will have something to upgrade.
 
 # Unregister and register the VM
+dnf -y remove katello-ca-consumer-*
 subscription-manager clean
-subscription-manager register --activationkey=12-5-22-instruqt --org=12451665 --force
+subscription-manager register --activationkey=$ACTIVATION_KEY --org=$ORG_ID --force
 
 dnf downgrade openssh -y
 systemctl restart sshd.service
